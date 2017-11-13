@@ -48,12 +48,7 @@ module.exports = {
       },
       {
         test: /\.styl$/,
-        loader: ['style-loader', 'css-loader', 'stylus-loader', {
-          loader: 'vuetify-loader',
-          options: {
-            theme: resolve('./src/stylus/theme.styl')
-          }
-        }]
+        loader: ['style-loader', 'css-loader', 'stylus-loader']
       }
     ]
   },
